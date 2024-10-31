@@ -11,9 +11,10 @@ class DataIterator:
 
     def __init__(self, args: Namespace):
 
+
+
         if args.train_dataset is not None:
             self.train_trajectories = load_dataset(args.train_dataset, args.train_batch_size, True, "train")
-
         if args.val_dataset is not None:
             self.val_trajectories = load_dataset(args.val_dataset, args.val_batch_size, False, "val")
 

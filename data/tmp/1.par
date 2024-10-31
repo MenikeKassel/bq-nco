@@ -1,0 +1,4 @@
+PROBLEM_FILE = E:/bq-nco/data/tmp\1.vrp
+RUNS = 10
+TIME_LIMIT = 10
+TOUR_FILE = E:/bq-nco/data/tmp\1.sol

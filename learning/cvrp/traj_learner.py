@@ -41,7 +41,7 @@ class TrajectoryLearner:
             self.loss = nn.CrossEntropyLoss()
             self.best_current_val_metric = float('inf')
             self.epoch_done = 0
-            self.nb_epochs = args.nb_total_epochs
+            self.nb_epochs = 1000
 
     def train(self):
         assert not self.test_only
