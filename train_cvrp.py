@@ -24,7 +24,7 @@ if __name__ == "__main__":
     best_current_val_metric = float('inf') if other is None else other['best_current_val_metric']
 
     data_iterator = DataIterator(args)
-
+#
     traj_learner = TrajectoryLearner(
         args, net, module, device, data_iterator, optimizer, checkpointer)
     traj_learner.train()
